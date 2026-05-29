@@ -50,3 +50,11 @@
 ---
 
 Updated and clarified for readability and correctness.
+
+you can add templates in django in your way it is not defined in a particular way
+
+we use render to return the template from views
+
+there is templating engine in django it means you can insert your code in template anywhere
+
+remember how to inject data in template
