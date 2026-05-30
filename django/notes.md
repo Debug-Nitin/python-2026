@@ -58,3 +58,9 @@ we use render to return the template from views
 there is templating engine in django it means you can insert your code in template anywhere
 
 remember how to inject data in template
+
+jinja is a templating engine in django provide boiler plate code for templates
+
+multiple apps are created inside a project in django
+
+for app urls you need to pass the control from urls.py of project to the app urls.py
