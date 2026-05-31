@@ -64,3 +64,8 @@ jinja is a templating engine in django provide boiler plate code for templates
 multiple apps are created inside a project in django
 
 for app urls you need to pass the control from urls.py of project to the app urls.py
+
+templating engine works somewhat like inheritance after defining our basic template config
+
+jango looks for the inherited html file using the different scope first the app template folder then the root template folder because we defined in setting
+i.e. the framework used to hunt template by django
