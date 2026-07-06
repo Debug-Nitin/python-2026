@@ -16,3 +16,6 @@ class appvariety(models.Model):
     image = models.ImageField(upload_to='basics/')
     date_added = models.DateTimeField(default = timezone.now)
     type = models.CharField(max_length=10 ,choices=APP_TYPE_CHOICE)
+
+def __str__(self):
+    return self.name
