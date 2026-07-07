@@ -1,0 +1,10 @@
+{% extends "layout.html" %} 
+
+{% block title %} All Apps {% endblock %} 
+
+{% block content %}
+<h1>This is the app info page.</h1>
+
+<h3 class="bg-gray-900">{{app.name}}</h3>
+<p>{{app.description}}</p>
+{% endblock %}
